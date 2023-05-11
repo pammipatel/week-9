@@ -8,9 +8,8 @@ int** arrayOfArrays(int n_rows, int n_cols) {
         arr[i] = new int[n_cols];  // Create each row as an array of integers
 
         for (int j = 0; j < n_cols; j++) {
-            arr[i][j] = 1;  // Initialize each element to 1
+            arr[i][j] = 1;  
         }
     }
 
-    return arr;  // Return pointer to the first element (pointer to the array of pointers)
-}
+    return arr;  // Return pointer to the first element 
